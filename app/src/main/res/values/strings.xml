@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assesment2_6706213142</string>
+    <string name="judul">Aplikasi menghitung luas keramik</string>
+    <string name="inpLuas">Masukan Sisi</string>
+    <string name="button">Hitung</string>
+    <string name="hasilTextView">Hasil Luas</string>
+    <string name="hasil_x">Hasil: %1$.2f</string>
+
+</resources>
