@@ -12,7 +12,7 @@ import org.d3if3142.assesment2_6706213142.databinding.FragmentHistoryBinding
 import org.d3if3142.assesment2_6706213142.db.HasilDb
 
 class HistoriFragment: Fragment(){
-    private var viewModel: HistoriViewModel by lazy {
+    private val viewModel: HistoriViewModel by lazy {
         val db = HasilDb.getInstance(requireContext())
         val factory = HistoriViewModelFactory(db.dao)
         ViewModelProvider(this, factory)[HistoriViewModel::class.java]
