@@ -1,5 +1,5 @@
 [
-    {"jenisUbin": "Ubin Kecil", "penjelasan":"isi", "gambarId":"isi"},
-    {"jenisUbin": "Ubin Sedang", "penjelasan":"isi", "gambarId":"isi"},
-    {"jenisUbin": "Ubin Besar", "penjelasan":"isi", "gambarId":"isi"}
+    {"jenisUbin": "Ubin Kecil", "penjelasan":"Ubin kecil biasanya memiliki ukuran sisi kurang dari 15 cm, dan sering digunakan untuk membuat mozaik atau pola-pola kecil pada dinding atau lantai. Contoh ukuran ubin kecil adalah 5x5 cm atau 10x10 cm.", "imageId":"UbinKecil"},
+    {"jenisUbin": "Ubin Sedang", "penjelasan":"Ubin sedang memiliki ukuran sisi antara 15-30 cm, dan sering digunakan untuk lantai atau dinding yang lebih besar. Ubin sedang dapat memberikan tampilan yang lebih halus dan homogen pada area yang lebih besar. Contoh ukuran ubin sedang adalah 20x20 cm atau 30x30 cm.", "imageId":"UbinSedang"},
+    {"jenisUbin": "Ubin Besar", "penjelasan":"Ubin besar memiliki ukuran sisi lebih dari 30 cm, dan sering digunakan untuk lantai atau dinding yang sangat besar. Ubin besar dapat memberikan tampilan yang lebih modern dan minimalis pada area yang lebih besar. Contoh ukuran ubin besar adalah 60x60 cm atau 120x120 cm.", "imageId":"UbinBesar"}
 ]    
