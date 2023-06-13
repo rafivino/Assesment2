@@ -1,5 +1,5 @@
 [
-    {"jenisUbin": "Ubin Kecil", penjelasan="isi", gambarId="isi"},
-    {"jenisUbin": "Ubin Sedang", penjelasan="isi", gambarId="isi"},
-    {"jenisUbin": "Ubin Besar", penjelasan="isi", gambarId="isi"}
+    {"jenisUbin": "Ubin Kecil", "penjelasan":"isi", "gambarId":"isi"},
+    {"jenisUbin": "Ubin Sedang", "penjelasan":"isi", "gambarId":"isi"},
+    {"jenisUbin": "Ubin Besar", "penjelasan":"isi", "gambarId":"isi"}
 ]    
