@@ -3,6 +3,7 @@ package org.d3if3142.assesment2_6706213142.ui.hitung
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -47,16 +48,30 @@ class HitungFragment: Fragment(){
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
+
+        Log.i("HitungFragment", "onCreateView dijalankan")
         binding = HitungFragmentBinding.inflate(layoutInflater,container,false)
         setHasOptionsMenu(true)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
+        Log.i("HitungFragment", "onViewCreated dijalankan")
         binding.button.setOnClickListener{ luasKeramik()}
         binding.shareButton.setOnClickListener{shareData()}
 
         viewModel.getHasil().observe(requireActivity(),{showResult(it)})
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.i("HitungFragmnet", "onStart dijalankan")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i("HitungFragment", "onResume dijalankan")
     }
 
     private fun shareData() {
