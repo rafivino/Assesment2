@@ -17,5 +17,8 @@
     <string name="konfirmasi_hapus">Hapus semua Data ?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="penjelasan_kecil">Ubin kecil biasanya memiliki ukuran sisi kurang \ndari 15 cm,dan sering digunakan untuk membuat \nmozaik atau pola-pola kecil \npada dinding atau lantai. Contoh ukuran ubin \nkecil adalah 5x5 cm atau 10x10 cm.</string>
+    <string name="ubin_kecil">Ubin Kecil</string>
+    <string name="koneksi_error">Koneksi Error</string>
 
 </resources>
