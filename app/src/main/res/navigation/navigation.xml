@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_hitungFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_ubinFragment"
+            app:destination="@id/ubinFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -27,4 +30,9 @@
         android:name="org.d3if3142.assesment2_6706213142.ui.histori.HistoriFragment"
         android:label="@string/histori"
         tools:layout="@layout/fragment_history"/>
+    <fragment
+        android:id="@+id/ubinFragment"
+        android:name="org.d3if3142.assesment2_6706213142.ui.kategoriUbin.UbinFragment"
+        android:label="@string/kategori_ubin"
+        tools:layout="@layout/fragment_kategori_ubin"/>
 </navigation>

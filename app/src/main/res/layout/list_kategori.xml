@@ -6,41 +6,41 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:background="?android:selectableItemBackground">
 
-<ImageView
-    android:id="@+id/imageView"
-    android:layout_width="88dp"
-    android:layout_height="88dp"
-    android:contentDescription="@null"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    android:src="@drawable/baseline_broken_image_24"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@null"
+        android:src="@drawable/baseline_broken_image_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-<TextView
-    android:id="@+id/kategoriTextview"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="16dp"
-    android:layout_marginBottom="12dp"
-    android:textSize="18sp"
-    android:textStyle="bold"
-    app:layout_constraintBottom_toTopOf="@+id/guideline"
-    app:layout_constraintStart_toEndOf="@+id/imageView"
-    android:text="@string/ubin_kecil" />
-<TextView
-    android:id="@+id/penjelasanTextview"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textStyle="italic"
-    app:layout_constraintStart_toStartOf="@id/kategoriTextview"
-    app:layout_constraintTop_toBottomOf="@+id/guideline"
-    tools:text="@string/penjelasan_kecil"/>
+    <TextView
+        android:id="@+id/kategoriTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubin_kecil"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/penjelasanTextview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-<androidx.constraintlayout.widget.Guideline
-    android:id="@+id/guideline"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    app:layout_constraintGuide_percent="0.5" />
+    <TextView
+        android:id="@+id/penjelasanTextview"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kategoriTextview"
+        tools:text="@string/penjelasan_kecil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

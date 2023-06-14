@@ -37,6 +37,10 @@ class HitungFragment: Fragment(){
                 findNavController().navigate(R.id.action_hitungFragment_to_historiFragment)
                 return true
             }
+            R.id.menu_ubin -> {
+                findNavController().navigate(R.id.action_hitungFragment_to_ubinFragment)
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
     }
@@ -51,6 +55,7 @@ class HitungFragment: Fragment(){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.button.setOnClickListener{ luasKeramik()}
         binding.shareButton.setOnClickListener{shareData()}
+
         viewModel.getHasil().observe(requireActivity(),{showResult(it)})
     }
 

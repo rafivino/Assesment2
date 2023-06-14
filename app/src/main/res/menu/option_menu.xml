@@ -14,4 +14,10 @@
         android:title="@string/tentang_aplikasi"
         app:showAsAction="never"></item>
 
+    <item
+        android:id="@+id/menu_ubin"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/ubin"
+        app:showAsAction="ifRoom"/>
+
 </menu>
